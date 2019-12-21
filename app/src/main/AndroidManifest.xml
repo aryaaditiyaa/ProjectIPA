@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pradita.arya.projectipa">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_naturego_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_naturego_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SliderLayout"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DetailTerong"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailWortel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailBrokoli"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailApel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailPisang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailJeruk"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListSayur"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListBuah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailMerak"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailPipit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailElang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListHewanUdara"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailAnjingLaut"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailPaus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailLumba"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListHewanLaut"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailGajah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailKucing"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListHewanDarat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailAnjing"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".About"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>

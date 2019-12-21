@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ListBuah">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorSoftGreen"
+            android:orientation="vertical"
+            android:padding="26dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/msemibold"
+                android:text="Buah"
+                android:textColor="@color/colorWhite"
+                android:textSize="26sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/mregular"
+                android:text="Manfaat buah untuk kesehatan tubuh sangat beragam. Selain untuk memelihara kesehatan, kandungan nutrisi pada buah juga bermanfaat untuk melindungi tubuh dari penyakit bahkan dapat membantu proses penyembuhan penyakit."
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/darat1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBody"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <RelativeLayout
+                android:id="@+id/jeruk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:padding="10dp">
+
+                <com.infinityandroid.roundedimageview.RoundedImageView
+                    android:id="@+id/img_jeruk"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/jeruk"
+                    app:corner_radius="10" />
+
+                <View
+                    android:id="@+id/card1"
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@id/img_jeruk"
+                    android:background="@drawable/card_item" />
+
+                <TextView
+                    android:id="@+id/judul1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@id/img_jeruk"
+                    android:fontFamily="@font/msemibold"
+                    android:text="Jeruk"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/judul1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toRightOf="@id/img_jeruk"
+                    android:fontFamily="@font/mregular"
+                    android:text="Citrus"
+                    android:textColor="@color/colorSecondary"
+                    android:textSize="12sp"
+                    android:textStyle="italic" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pisang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <com.infinityandroid.roundedimageview.RoundedImageView
+                    android:id="@+id/img_pisang"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/pisang"
+                    app:corner_radius="10" />
+
+                <View
+                    android:id="@+id/card2"
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@id/img_pisang"
+                    android:background="@drawable/card_item" />
+
+                <TextView
+                    android:id="@+id/judul2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@id/img_pisang"
+                    android:fontFamily="@font/msemibold"
+                    android:text="Pisang"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/judul2"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toRightOf="@id/img_pisang"
+                    android:fontFamily="@font/mregular"
+                    android:text="Musa"
+                    android:textColor="@color/colorSecondary"
+                    android:textSize="12sp"
+                    android:textStyle="italic" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/apel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <com.infinityandroid.roundedimageview.RoundedImageView
+                    android:id="@+id/img_apel"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/apel"
+                    app:corner_radius="10" />
+
+                <View
+                    android:id="@+id/card3"
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@id/img_apel"
+                    android:background="@drawable/card_item" />
+
+                <TextView
+                    android:id="@+id/judul3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@id/img_apel"
+                    android:fontFamily="@font/msemibold"
+                    android:text="Apel"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/judul3"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toRightOf="@id/img_apel"
+                    android:fontFamily="@font/mregular"
+                    android:text="Malus domestica"
+                    android:textColor="@color/colorSecondary"
+                    android:textSize="12sp"
+                    android:textStyle="italic" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

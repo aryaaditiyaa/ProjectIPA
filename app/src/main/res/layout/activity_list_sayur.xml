@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ListSayur">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorSoftGreen"
+            android:orientation="vertical"
+            android:padding="26dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/msemibold"
+                android:text="Sayur"
+                android:textColor="@color/colorWhite"
+                android:textSize="26sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/mregular"
+                android:text="Sayuran hijau memiliki kandungan serat yang tinggi, serta kaya akan vitamin dan mineral. Jadi, tidak heran jika sayuran hijau merupakan salah satu jenis makanan yang paling sering dianjurkan dokter, karena memang ada banyak sekali manfaat sayuran hijau untuk kesehatan."
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/darat1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBody"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <RelativeLayout
+                android:id="@+id/brokoli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:padding="10dp">
+
+                <com.infinityandroid.roundedimageview.RoundedImageView
+                    android:id="@+id/img_brokoli"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/brokoli"
+                    app:corner_radius="10" />
+
+                <View
+                    android:id="@+id/card1"
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@id/img_brokoli"
+                    android:background="@drawable/card_item" />
+
+                <TextView
+                    android:id="@+id/judul1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@id/img_brokoli"
+                    android:fontFamily="@font/msemibold"
+                    android:text="Brokoli"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/judul1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toRightOf="@id/img_brokoli"
+                    android:fontFamily="@font/mregular"
+                    android:maxLines="1"
+                    android:text="Brassica oleracea var. italica"
+                    android:textColor="@color/colorSecondary"
+                    android:textSize="12sp"
+                    android:textStyle="italic" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/wortel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <com.infinityandroid.roundedimageview.RoundedImageView
+                    android:id="@+id/img_wortel"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/wortel"
+                    app:corner_radius="10" />
+
+                <View
+                    android:id="@+id/card2"
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@id/img_wortel"
+                    android:background="@drawable/card_item" />
+
+                <TextView
+                    android:id="@+id/judul2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@id/img_wortel"
+                    android:fontFamily="@font/msemibold"
+                    android:text="Wortel"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/judul2"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toRightOf="@id/img_wortel"
+                    android:fontFamily="@font/mregular"
+                    android:text="Daucus carota"
+                    android:textColor="@color/colorSecondary"
+                    android:textSize="12sp"
+                    android:textStyle="italic" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/terong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <com.infinityandroid.roundedimageview.RoundedImageView
+                    android:id="@+id/img_terong"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/terong"
+                    app:corner_radius="10" />
+
+                <View
+                    android:id="@+id/card3"
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@id/img_terong"
+                    android:background="@drawable/card_item" />
+
+                <TextView
+                    android:id="@+id/judul3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@id/img_terong"
+                    android:fontFamily="@font/msemibold"
+                    android:text="Terong"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/judul3"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toRightOf="@id/img_terong"
+                    android:fontFamily="@font/mregular"
+                    android:text="Solanum melongena"
+                    android:textColor="@color/colorSecondary"
+                    android:textSize="12sp"
+                    android:textStyle="italic" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
